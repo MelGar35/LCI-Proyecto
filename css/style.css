@@ -1,5 +1,58 @@
 body {
-    background-color: rgb(38, 161, 161);
+    background-color: rgb(251, 251, 251);
     font-family: "Mingzat", sans-serif;
     overflow-x: hidden;
   }
+
+
+.header {
+  display:flex;
+  justify-content:space-between;
+  margin: 1px;
+  
+}
+.container-fluid  {
+  background-color: rgb(36, 36, 132);
+  padding: 15px;
+  margin: auto;
+}
+
+.button {
+  align-items: center;
+  text-align: center;
+  background-color: rgb(64, 81, 242);
+  color: rgb(249, 249, 249);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 1px;
+}
+
+.navbar-nav a {
+  color: rgb(255, 255, 255);
+
+}
+
+ul li a:hover {
+  background-color: rgb(126, 124, 122);
+  color: rgb(238, 241, 245);
+  border-radius: 7px;
+}
+
+.carousel-inner img {
+  width: 95%;
+  padding: 1px;
+  margin: auto;
+}
+.carousel-inner img .carousel-inner {
+  height: 500px;
+}
+
+.section-1 article{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 95%;
+  padding: 10px;
+  margin: 10px;
+}
+
