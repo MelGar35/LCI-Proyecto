@@ -22,14 +22,14 @@ body {
   text-align: center;
   background-color: rgb(64, 81, 242);
   color: rgb(249, 249, 249);
-  border-radius: 10px;
-  margin: 10px;
-  padding: 1px;
+  border-radius: 7px;
+  font-size: small;
+  margin: 30px;
+  padding: 10px;
 }
 
 .navbar-nav a {
   color: rgb(255, 255, 255);
-
 }
 
 ul li a:hover {
@@ -43,6 +43,7 @@ ul li a:hover {
   padding: 1px;
   margin: auto;
 }
+
 .carousel-inner img .carousel-inner {
   height: 500px;
 }
@@ -50,9 +51,57 @@ ul li a:hover {
 .section-1 article{
   display:flex;
   justify-content: center;
-  flex-direction: column;
-  width: 95%;
+  align-items: center;
+  flex-direction: row;
   padding: 10px;
   margin: 10px;
 }
 
+.section-1 button{
+  background-color:  rgb(19, 210, 248);
+  color: white;
+  border: rgb(19, 210, 248);
+  padding: 5px;
+}
+
+.article3{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(19, 210, 248);
+  color: aliceblue;
+}
+
+.articleVideo{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgInstitute{
+  padding: 10px;
+  width: 100%;
+}
+
+.logo2{
+  display: flex;
+  justify-content: center;
+}
+
+
+.colorFooter{
+  background-color: blue;
+}
+
+
+.footer div ul li a{
+  display: flex;
+  justify-content: space-between;  
+  flex-direction: column;
+  text-decoration: none;
+  color: rgb(178, 93, 93);
+  background-color: rgb(30, 255, 0);
+
+}
