@@ -118,12 +118,12 @@
 
         <form class="form">
             <div>
-                <label for="exampleInputEmail1" class="input">First Name *</label>
-                <input type="email" class="input" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                <label for="firstName" class="input">First Name *</label>
+                <input type="text" class="input" id="firstName" required>
             </div>
             <div>
                 <label for="exampleInputEmail1" class="input">Last Name *</label>
-                <input type="email" class="input" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                <input type="text" class="input" id="exampleInputEmail1" aria-describedby="emailHelp" required>
             </div>
             <div>
                 <label for="exampleInputEmail1" class="input">Email *</label>
@@ -135,7 +135,7 @@
             </div>
             <div>
                 <label for="exampleInputEmail1" class="input">Phone</label>
-                <input type="email" class="input" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input type="number" class="input" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
             <div>
                 <select class="input" aria-label=".form-select">
@@ -153,8 +153,24 @@
                     <option value="3">3</option>
                 </select>
             </div>
-            <button class="submitButton" type="button">Submit!</button>
+            <button class="submitButton" type="submit">Submit!</button>
         </form>
+        <form class="p-2">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">Nunca compartiremos tu email con nadie.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Quiero recibir info sobre novedades!</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
     </section>
     <section>
         <div class="titleLci">
