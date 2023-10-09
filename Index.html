@@ -22,11 +22,11 @@
 <body>
     <header class="header">
         <div class="sectionHeader">
-                <a href="#">Español</a>
+            <a class="español" href="#">Español</a>
             <div class="headerLogo">
                 <img src="img/logoLCI .jpg" alt="logo-LCI">
             </div>
-    
+
             <div>
                 <a href="#"><img class="phoneLogo" src="img/phoneLogo.jpg" alt="phone-logo"></a>
                 <div>
@@ -34,9 +34,9 @@
                     <button class="button2" type="button">Request info</button>
                 </div>
             </div>
-    
+
         </div>
-        
+
     </header>
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
@@ -77,22 +77,22 @@
     </main>
     <section class="section-1">
 
-                <img class="imgInstitute" src="img/ImgInstitute.jpg" alt="img-Institute">
-            <div class="texto">
-                <h6><strong>Now Enrolling for English Classes!</strong></h6>
-                <p>Ready to sign up for English classes? Both in-person and online clases are currently available! Check
+        <img class="imgInstitute" src="img/ImgInstitute.jpg" alt="img-Institute">
+        <div class="texto">
+            <h6><strong>Now Enrolling for English Classes!</strong></h6>
+            <p>Ready to sign up for English classes? Both in-person and online clases are currently available! Check
                 out our calendar, register online or contact us today for more information.
                 <br>We hope to see you son!
-                </p>
-                <button type="button">Learn more!</button>
-                <br><br>
-                <h6><strong>LCI English Centers</strong></h6>
-                <p>Learn English in the United States in one of our two great locations:
+            </p>
+            <button type="button">Learn more!</button>
+            <br><br>
+            <h6><strong>LCI English Centers</strong></h6>
+            <p>Learn English in the United States in one of our two great locations:
                 <br> Denver, Colorado (Opening son) <br>
                 Houston, Texas.
-                </p>
-                <button type="button">Learn more!</button>
-            </div>
+            </p>
+            <button type="button">Learn more!</button>
+        </div>
     </section>
     <section class="section-2">
         <div>
@@ -108,50 +108,91 @@
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
-    </section >
+    </section>
 
     <section class="headerForm">
         <div>
             <h3><strong>Request Info!</strong></h3>
             <h6>Please submit this form and we will contact you soon with <br> more information.</h6>
         </div>
-    
-      <form class="form p-2">
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text"><strong>No compartiremos tu información con nadie.</strong></div>
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Dejame aquí tu consulta</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Quiero recibir novedades</label>
-        </div>
-        <button class="submitButton" type="button">Submit!</button>
-      </form>
-      </section>
+
+        <form class="form">
+            <div>
+                <label for="exampleInputEmail1" class="input">First Name *</label>
+                <input type="email" class="input" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+            </div>
+            <div>
+                <label for="exampleInputEmail1" class="input">Last Name *</label>
+                <input type="email" class="input" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+            </div>
+            <div>
+                <label for="exampleInputEmail1" class="input">Email *</label>
+                <input type="email" class="input" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+            </div>
+            <div>
+                <label for="exampleFormControlTextarea1">Additional Comments</label>
+                <textarea class="input" id="exampleFormControlTextarea1"></textarea>
+            </div>
+            <div>
+                <label for="exampleInputEmail1" class="input">Phone</label>
+                <input type="email" class="input" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div>
+                <select class="input" aria-label=".form-select">
+                    <option selected>Country of Citizenship*</option>
+                    <option value="1">United States</option>
+                    <option value="2">Argentina</option>
+                    <option value="3">Chile</option>
+                </select>
+            </div>
+            <div>
+                <select class="input" aria-label=".form-select">
+                    <option selected>Program of Interest</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+            <button class="submitButton" type="button">Submit!</button>
+        </form>
+    </section>
     <section>
         <div class="titleLci">
-            <h3><strong>LCI Highlights</strong></h3> 
+            <h3><strong>LCI Highlights</strong></h3>
         </div>
         <div class="lciHighlightsSection">
             <div class="lci">
-                <ul><li>Accredited Programs</li></ul>
-                <ul><li>Experienced Teachers</li></ul>
-                <ul><li>I-20 Form (for Student Visa)</li></ul>
+                <ul>
+                    <li>Accredited Programs</li>
+                </ul>
+                <ul>
+                    <li>Experienced Teachers</li>
+                </ul>
+                <ul>
+                    <li>I-20 Form (for Student Visa)</li>
+                </ul>
             </div>
             <div class="lci">
-                <ul><li>Small Class Sizes</li></ul>
-                <ul><li>Accommodation Options</li></ul>
-                <ul><li>Exceptional Service</li></ul>
+                <ul>
+                    <li>Small Class Sizes</li>
+                </ul>
+                <ul>
+                    <li>Accommodation Options</li>
+                </ul>
+                <ul>
+                    <li>Exceptional Service</li>
+                </ul>
             </div>
             <div class="lci">
-                <ul><li>University Partnerships</li></ul>
-                <ul><li>Personal Advisors</li></ul>
-                <ul><li>Customized Programs</li></ul>
+                <ul>
+                    <li>University Partnerships</li>
+                </ul>
+                <ul>
+                    <li>Personal Advisors</li>
+                </ul>
+                <ul>
+                    <li>Customized Programs</li>
+                </ul>
             </div>
         </div>
     </section>
@@ -163,7 +204,7 @@
     <footer>
         <div class="footerSection">
             <div class="aboutUs">
-                <h6><strong>LCI Language Centers</strong></h6> 
+                <h6><strong>LCI Language Centers</strong></h6>
                 <a href="#">Learn English Denver, Colorado</a>
                 <a href="#">Learn English Houston, Texas</a>
             </div>
@@ -191,19 +232,20 @@
             <div class="redes">
                 <h6><strong>Follow Us</strong></h6>
                 <span class="icono">
-                    <a href="https://www.facebook.com/?locale=es_LA"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.facebook.com/?locale=es_LA" target="_blank"><i
+                            class="fa-brands fa-facebook"></i></a>
                 </span>
                 <span class="icono">
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                 </span>
                 <span class="icono">
-                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
                 </span>
                 <span class="icono">
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
                 </span>
                 <span class="icono">
-                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                 </span>
             </div>
         </div>
