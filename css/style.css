@@ -317,7 +317,7 @@ display: none;
    
 .phoneLogo{
 display: flex;
-padding: 5px;
+padding: 2px;
 }
 
 .headerLogo{
@@ -328,20 +328,18 @@ padding-left: 1px;
 .button1 {
 display: flex;
 font-size: smaller;
-padding: 5px;
+padding: 2px;
 margin-left: 12px;
 }
 
 .button2 {
 font-size: smaller;
-padding: 5px;
+padding: 2px;
 margin-left: 12px;
 }
 
 
   /*Nav*/
-  
- 
   
   .navbar-toggler{
     display: flex;
