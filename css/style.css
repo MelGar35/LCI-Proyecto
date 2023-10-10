@@ -91,13 +91,11 @@ padding-left: 170px;
 /*Carousel*/
 
 .carousel-inner img {
-  width: 95%;
+  width: 100%;
   padding: 1px;
-  margin: auto;
 }
-.carousel-inner img .carousel-inner {
-  height: 500px;
-}
+
+
 
 /*Section 1*/
 .section-1 {
@@ -307,14 +305,19 @@ span{
 background-color: #113476;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
 
 body{background-color: #113476;}
 
 .sectionHeader .español {
 display: none;
 }
-   
+.carousel-inner img {
+  width: 100%;
+  padding: 1px;
+  margin: auto;
+}
+
 .phoneLogo{
 display: flex;
 padding: 2px;
@@ -341,15 +344,28 @@ margin-left: 12px;
 
   /*Nav*/
   
-  .navbar-toggler{
+  .navbar .navbar-toggler{
     display: flex;
-    width: 20%;
-    color: #e9eff6;
+    color: #010811;
+    padding: 10px;
+    margin: 10px;
   }
+  
   .section-1{
-    display: inline-block;
+    display: flex;
     flex-direction: column;
-    margin: auto;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .texto{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    
+    
   }
   
   .imgInstitute {
