@@ -9,6 +9,7 @@ body {
 }
 
 /*Header*/
+
 .sectionHeader {
   display: flex;
   justify-content: space-between;
@@ -32,7 +33,7 @@ padding-left: 170px;
 .phoneLogo{
   display: flex;
   align-items: center;
-  margin-left: 12px;
+  margin-left: 30px;
   width: 60%;
 }
 
@@ -97,6 +98,7 @@ padding-left: 170px;
 .carousel-inner img .carousel-inner {
   height: 500px;
 }
+
 /*Section 1*/
 .section-1 {
   display: flex;
@@ -305,80 +307,73 @@ span{
 background-color: #113476;
 }
 
+@media (max-width: 480px) {
 
-@media (max-width: 320px) {
+body{background-color: #113476;}
 
-
-body{
-  background-color: #333;
-} 
-
-.sectionHeader{
-  display: block;
-  justify-content: center;
-}
 .sectionHeader .español {
-  display: none;
-  padding: 10px;
-}
-
-.logo2 img{
-  display: flex;
-  justify-content: center;
-}
-
-.phoneLogo{
 display: none;
 }
+   
+.phoneLogo{
+display: flex;
+padding: 5px;
+}
+
 .headerLogo{
-  display: flex;
-  height: 50px;
-  margin-left: 50px;
+display: inline-block;
+padding-left: 1px;
 }
 
 .button1 {
 display: flex;
-flex-direction: column;
+font-size: smaller;
+padding: 5px;
+margin-left: 12px;
 }
 
-.button2{
-  display: flex;
-  flex-direction: column;
-}
-/*Nav*/
-
-.navbar{
-  padding: 10px;
+.button2 {
+font-size: smaller;
+padding: 5px;
+margin-left: 12px;
 }
 
-.navbar-toggler{
-  display: flex;
-  width: 20%;
-  color: #e9eff6;
-}
-.section-1{
-  display: inline-block;
-  flex-direction: column;
-  margin: auto;
-}
 
-.imgInstitute {
-    width: 100%; 
+  /*Nav*/
+  
+ 
+  
+  .navbar-toggler{
+    display: flex;
+    width: 20%;
+    color: #e9eff6;
+  }
+  .section-1{
+    display: inline-block;
+    flex-direction: column;
     margin: auto;
-    justify-content: center;
-}
-
-  .submitButton {
-    margin-left: 10px; /* Adjust as needed for small screens */
   }
-
-  .logo2 div img {
-    width: 50px;
+  
+  .imgInstitute {
+      width: 100%; 
+      margin: auto;
+      justify-content: center;
   }
-
-  .video{
-    width: 100%;
-    height: 50%;
+  
+    .submitButton {
+      margin-left: 10px; /* Adjust as needed for small screens */
+    }
+    .logo2 img{
+      display: flex;
+      justify-content: center;
+      }
+    .logo2 div img {
+      width: 50px;
+    }
+  
+    .video{
+      width: 100%;
+      height: 50%;
+    }
   }
-}
-
+  
