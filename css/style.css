@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+ 
 }
 
 body {
@@ -91,10 +91,9 @@ padding-left: 170px;
 /*Carousel*/
 
 .carousel-inner img {
-  width: 100%;
+  width: 80%;
   padding: 1px;
 }
-
 
 
 /*Section 1*/
@@ -141,8 +140,8 @@ padding-left: 170px;
 }
 .section-2 div img{
   display: flex;
-  width: 80%;
-  margin-left: 90px;
+  width: 100%;
+  margin: auto;
   
 }
 .section3Video {
