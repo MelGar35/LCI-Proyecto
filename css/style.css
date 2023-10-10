@@ -88,15 +88,13 @@ padding-left: 170px;
 }
 
 /*Carousel*/
-.carousel-inner img {
+.carousel-inner div img {
   width: 95%;
   padding: 1px;
   margin: auto;
 }
 
-.carousel-inner img .carousel-inner {
-  height: 500px;
-}
+
 
 /*Section 1*/
 .section-1 {
