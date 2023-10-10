@@ -60,7 +60,7 @@
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/imgCarrousel.jpg" class="d-block" alt="proyectoMelisa1">
+                    <img src="img/imgCarrousel.jpg" class="d-block" alt="imgCarrousel">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -100,7 +100,7 @@
         </div>
     </section>
 
-    <section class="section2Video">
+    <section class="section3Video">
         <h3><strong>Tour our centers and hear from our students!</strong></h3>
         <br>
         <iframe class="video" width="800" height="400"
@@ -116,62 +116,45 @@
             <h6>Please submit this form and we will contact you soon with <br> more information.</h6>
         </div>
 
-        <form class="form">
-            <div>
-                <label for="firstName" class="input">First Name *</label>
-                <input type="text" class="input" id="firstName" required>
+        <form>
+            <div class="form">
+                <div class="formDiv">
+                    <input type="text" class="input" id="ifirstName" placeholder="First Name*" required>
+                
+                    <input type="text" class="input" id="ilastName" placeholder="Last Name*" required>
+               
+                    <input type="email" class="input" id="iemail" placeholder="Email*" required>
+
+                    <label class="input" for="itextarea" style="color: gray;">Additional Comments</label>
+                    <textarea class="input" id="itextarea"></textarea>
+                </div>
+
+                <div class="formDiv">
+                    <input type="tel" class="input" id="iphone" placeholder="Phone">
+                
+                
+                    <select class="input" required>
+                        <option selected>Country of Citizenship*</option>
+                        <option value="1">United States</option>
+                        <option value="2">Argentina</option>
+                        <option value="3">Chile</option>
+                    </select>
+               
+                
+                    <select class="input">
+                        <option selected>Program of Interest</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+           
+                
+                    <button class="submitButton" type="submit">Submit!</button>
+                </div>
             </div>
-            <div>
-                <label for="exampleInputEmail1" class="input">Last Name *</label>
-                <input type="text" class="input" id="exampleInputEmail1" aria-describedby="emailHelp" required>
-            </div>
-            <div>
-                <label for="exampleInputEmail1" class="input">Email *</label>
-                <input type="email" class="input" id="exampleInputEmail1" aria-describedby="emailHelp" required>
-            </div>
-            <div>
-                <label for="exampleFormControlTextarea1">Additional Comments</label>
-                <textarea class="input" id="exampleFormControlTextarea1"></textarea>
-            </div>
-            <div>
-                <label for="exampleInputEmail1" class="input">Phone</label>
-                <input type="number" class="input" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div>
-                <select class="input" aria-label=".form-select">
-                    <option selected>Country of Citizenship*</option>
-                    <option value="1">United States</option>
-                    <option value="2">Argentina</option>
-                    <option value="3">Chile</option>
-                </select>
-            </div>
-            <div>
-                <select class="input" aria-label=".form-select">
-                    <option selected>Program of Interest</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                </select>
-            </div>
-            <button class="submitButton" type="submit">Submit!</button>
         </form>
-        <form class="p-2">
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text">Nunca compartiremos tu email con nadie.</div>
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Quiero recibir info sobre novedades!</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
-          </form>
     </section>
+
     <section>
         <div class="titleLci">
             <h3><strong>LCI Highlights</strong></h3>
