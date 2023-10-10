@@ -88,14 +88,15 @@ padding-left: 170px;
 }
 
 /*Carousel*/
-.carousel-inner div img {
+
+.carousel-inner img {
   width: 95%;
   padding: 1px;
   margin: auto;
 }
-
-
-
+.carousel-inner img .carousel-inner {
+  height: 500px;
+}
 /*Section 1*/
 .section-1 {
   display: flex;
@@ -305,23 +306,27 @@ background-color: #113476;
 }
 
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 320px) {
 
 
- body{
+body{
   background-color: #333;
- } 
+} 
+
 .sectionHeader{
   display: block;
-  justify-content: space-around;
+  justify-content: center;
 }
 .sectionHeader .español {
   display: none;
-  padding: 15px;
+  padding: 10px;
 }
+
 .logo2 img{
-  width: 10%;
+  display: flex;
+  justify-content: center;
 }
+
 .phoneLogo{
 display: none;
 }
