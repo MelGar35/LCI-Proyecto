@@ -91,7 +91,7 @@ padding-left: 170px;
 /*Carousel*/
 
 .carousel-inner img {
-  width: 80%;
+  width: 100%;
   padding: 1px;
 }
 
@@ -112,7 +112,7 @@ padding-left: 170px;
 
 .section-1 .texto{
   margin: 10px;
-  margin-right: 150px;
+  margin-right: 10px;
   font-size: small;
   color: #626262
 }
@@ -230,6 +230,7 @@ padding-left: 170px;
 .headerLci{
   display: flex;
   justify-content: center ;
+  padding: 15px;
 }
 
 .lci{ 
@@ -237,6 +238,7 @@ padding-left: 170px;
   justify-content: space-between;
   flex-direction: column;
   padding: 15px;
+  
 }
 
 .lci ul li{
@@ -245,8 +247,8 @@ padding-left: 170px;
   list-style-type: none;
   text-align: center;
   justify-content: center;
-  padding: 5px;
-  padding-right: 80px;
+  
+  
 }
 
 .titleLci{
@@ -256,7 +258,7 @@ padding-left: 170px;
   color: #f4f4f4;
   background-color: #00a5ff;
   padding: 5px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 /*Logo-2*/
@@ -268,7 +270,7 @@ padding-left: 170px;
 }
 
 .logo2 div img {
-  width: 45%;
+  width: 40%;
 }
 
 /*Footer*/
@@ -282,7 +284,7 @@ padding-left: 170px;
   justify-content: space-evenly;
   background-color: #113476;
   color: #e9eff6;
-  padding: 40px;
+  padding: 30px;
 }
 
 .aboutUs{
@@ -306,38 +308,50 @@ background-color: #113476;
 
 @media (max-width: 500px) {
 
-body{background-color: #113476;}
+.sectionHeader{
+  display: flex;
+}
 
 .sectionHeader .español {
 display: none;
 }
+
 .carousel-inner img {
   width: 100%;
   padding: 1px;
-  margin: auto;
 }
 
 .phoneLogo{
 display: flex;
-padding: 2px;
+margin-left: 40px;
 }
 
 .headerLogo{
-display: inline-block;
+display: flex;
 padding-left: 1px;
+}
+
+.headerLogo img{
+  width: 100%;
 }
 
 .button1 {
 display: flex;
 font-size: smaller;
 padding: 2px;
-margin-left: 12px;
+margin: 10px;
+margin-left: 70px;
+
 }
 
 .button2 {
+display: flex;
 font-size: smaller;
-padding: 2px;
-margin-left: 12px;
+padding: 2px 7px;
+margin: 10px;
+margin-left: 70px;
+
+
 }
 
 
@@ -346,8 +360,8 @@ margin-left: 12px;
   .navbar .navbar-toggler{
     display: flex;
     color: #010811;
-    padding: 10px;
-    margin: 10px;
+    padding: 5px;
+    margin: 5px;
   }
   
   .section-1{
@@ -356,35 +370,33 @@ margin-left: 12px;
     align-items: center;
     justify-content: center;
     text-align: center;
-  
   }
 
-  
-  
   .imgInstitute {
-      width: 100%; 
-      margin: auto;
-      justify-content: center;
+      width: 90%;  
   }
   
     .submitButton {
-      margin-left: 10px; /* Adjust as needed for small screens */
+      margin-left: 10px;
     }
     .logo2 img{
       display: block;
       justify-content: center;
       width: 50%;
       }
-
+.section3Video h3 {
+   text-align: center;
+}
     .video{
-      width: 70%;
-      height: 70%;
+      width: 80%;
+      height: 80%;
     }
 
     .form{
       display:flex;
       flex-direction: column;
       align-items: center;
+      width: 90%;
       
     }
 
@@ -396,7 +408,7 @@ margin-left: 12px;
 
     .titleLci{
         display: flex;
-        padding-right: 12px;
+        padding-left: 35px;
         padding-top: 20px;
       }
 
